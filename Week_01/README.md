@@ -735,4 +735,20 @@ hashcat -m 400 -a 0 hashfile rockyou.txt
 
 ---
 
+## Recommended TryHackMe Labs
+
+Practice this week's concepts with these hands-on rooms:
+
+| Room | Difficulty | Free? | Why It's Relevant |
+|---|---|---|---|
+| [Pentesting Fundamentals](https://tryhackme.com/room/pentestingfundamentals) | Easy | Free | Pentest ethics, methodologies, black/grey/white box, frameworks (OSSTMM, OWASP) |
+| [Principles of Security](https://tryhackme.com/room/principlesofsecurity) | Easy | Free | CIA triad, threat modelling with STRIDE, access control concepts |
+| [Vulnversity](https://tryhackme.com/room/vulnversity) | Easy | Free | End-to-end beginner pentest: Nmap recon, Gobuster, reverse shell, privilege escalation |
+| [Command Injection](https://tryhackme.com/room/oscommandinjection) | Easy | Sub | OS command injection — discovering, testing, and exploiting injection vulnerabilities |
+| [SQL Injection](https://tryhackme.com/room/sqlinjectionlm) | Easy | Sub | SQL injection fundamentals — directly relevant to the WordPress plugin SQLi exercise |
+
+**Suggested order:** Pentesting Fundamentals → Principles of Security → Vulnversity → Command Injection → SQL Injection
+
+---
+
 [Back to Course Home](../README.md) | [Week 2: Information Gathering →](../Week_02/README.md)

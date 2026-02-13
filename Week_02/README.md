@@ -676,4 +676,20 @@ Gather email addresses for phishing or login attacks:
 
 ---
 
+## Recommended TryHackMe Labs
+
+Practice this week's concepts with these hands-on rooms:
+
+| Room | Difficulty | Free? | Why It's Relevant |
+|---|---|---|---|
+| [Google Dorking](https://tryhackme.com/room/googledorking) | Easy | Free | Search engine mechanics, advanced Google dorks, robots.txt, sitemaps |
+| [Passive Reconnaissance](https://tryhackme.com/room/passiverecon) | Easy | Free | WHOIS, nslookup, DNSDumpster, Shodan — all without touching the target |
+| [Active Reconnaissance](https://tryhackme.com/room/activerecon) | Easy | Free | Traceroute, ping, telnet probing, browser-based recon |
+| [Nmap](https://tryhackme.com/room/furthernmap) | Easy | Free | TCP/SYN/NULL/FIN/Xmas scans, service detection, NSE scripts, firewall evasion |
+| [Content Discovery](https://tryhackme.com/room/contentdiscovery) | Easy | Free | robots.txt, sitemap, favicon fingerprinting, Gobuster, Dirb, Wappalyzer |
+
+**Suggested order:** Passive Reconnaissance → Google Dorking → Active Reconnaissance → Nmap → Content Discovery
+
+---
+
 [← Week 1: Introduction to Ethical Hacking](../Week_01/README.md) | [Back to Course Home](../README.md) | [Week 3: Security Research →](../Week_03/README.md)

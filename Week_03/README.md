@@ -516,4 +516,22 @@ site:<domain> inurl:wp-login.php
 
 ---
 
+## Recommended TryHackMe Labs
+
+Practice this week's concepts with these hands-on rooms:
+
+| Room | Difficulty | Free? | Why It's Relevant |
+|---|---|---|---|
+| [Vulnerabilities 101](https://tryhackme.com/room/vulnerabilities101) | Easy | Free | What vulnerabilities are, CVSS scoring, CVE identifiers, vulnerability databases |
+| [Exploit Vulnerabilities](https://tryhackme.com/room/exploitingavulnerabilityv2) | Easy | Sub | Using Exploit-DB, SearchSploit, and Rapid7 to find and leverage exploits |
+| [OhSINT](https://tryhackme.com/room/ohsint) | Easy | Free | OSINT challenge — extract info from an image using EXIF data and web research |
+| [Blog](https://tryhackme.com/room/blog) | Medium | Free | WordPress CTF — WPScan enumeration, user discovery, CVE exploitation |
+| [WordPress: CVE-2021-29447](https://tryhackme.com/room/wordpresscve202129447) | Medium | Sub | WordPress XXE vulnerability — malicious WAV file to exfiltrate wp-config.php |
+
+**Suggested order:** Vulnerabilities 101 → OhSINT → Exploit Vulnerabilities → Blog → WordPress CVE
+
+**Bonus:** [Sakura Room](https://tryhackme.com/room/sakura) (Free, Easy) — additional OSINT challenge, great for group practice.
+
+---
+
 *Week 3 of 12 — UOP M31880 Ethical Hacking*

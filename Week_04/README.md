@@ -792,4 +792,20 @@ nc smtp.example.com 25                  # Test SMTP honeypot
 
 ---
 
+## Recommended TryHackMe Labs
+
+Practice this week's concepts with these hands-on rooms:
+
+| Room | Difficulty | Free? | Why It's Relevant |
+|---|---|---|---|
+| [Phishing (Red Team)](https://tryhackme.com/room/phishingyl) | Medium | Sub | Set up GoPhish, SMTP profiles, email templates, landing pages — run a phishing campaign |
+| [Phishing Emails in Action](https://tryhackme.com/room/phishingemails2rytmuv) | Easy | Sub | Analyse real phishing emails — spot pretexting, impersonation, urgency techniques |
+| [What the Shell?](https://tryhackme.com/room/introtoshells) | Easy | Sub | Reverse/bind shells with Netcat, Socat, multi/handler, Msfvenom payload generation |
+| [Weaponization](https://tryhackme.com/room/weaponization) | Medium | Sub | Msfvenom payloads (VBS, PowerShell, HTA), malicious documents, payload delivery |
+| [Metasploit: Introduction](https://tryhackme.com/room/metasploitintro) | Easy | Free | Metasploit basics — modules, search, set, Msfvenom standalone tool |
+
+**Suggested order:** Phishing Emails in Action → Phishing (Red Team) → What the Shell? → Weaponization → Metasploit: Introduction
+
+---
+
 *Week 4 of 12 — UOP M31880 Ethical Hacking*

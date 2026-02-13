@@ -647,4 +647,22 @@ NOP         → Keeps payload sizes consistent
 
 ---
 
+## Recommended TryHackMe Labs
+
+Practice this week's concepts with these hands-on rooms:
+
+| Room | Difficulty | Free? | Why It's Relevant |
+|---|---|---|---|
+| [Network Services](https://tryhackme.com/room/networkservices) | Easy | Free | Enumerate and exploit SMB, Telnet, FTP — uses Enum4Linux and Nmap scripts |
+| [Hydra](https://tryhackme.com/room/hydra) | Easy | Free | Brute-forcing SSH and web login forms with Hydra |
+| [Kenobi](https://tryhackme.com/room/kenobi) | Easy | Free | Samba enumeration (smb-enum-shares/users), ProFTPD exploit, SUID priv esc |
+| [Metasploit: Exploitation](https://tryhackme.com/room/metasploitexploitation) | Easy | Sub | SMB enumeration, EternalBlue (MS17-010), Msfvenom, Meterpreter post-exploitation |
+| [OpenVAS](https://tryhackme.com/room/openvas) | Easy | Free | Vulnerability scanning with OpenVAS — configuring scans, interpreting results |
+
+**Suggested order:** Network Services → Hydra → Kenobi → Metasploit: Exploitation → OpenVAS
+
+**Bonus:** [Network Services 2](https://tryhackme.com/room/networkservices2) (Free, Easy) — covers NFS, SMTP, and MySQL enumeration as a follow-up.
+
+---
+
 *Week 5 of 12 — UOP M31880 Ethical Hacking*
